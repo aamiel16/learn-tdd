@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./tests/*.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/aamiel16/learn-tdd/issues"
   },
-  "homepage": "https://github.com/aamiel16/learn-tdd#readme"
+  "homepage": "https://github.com/aamiel16/learn-tdd#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "sinon": "^8.1.1"
+  }
 }
